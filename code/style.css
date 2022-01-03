@@ -119,26 +119,6 @@ body {
 }
 
 
-/* Style se6 */
-.se6{
-    color: #fff;
-    display: flex;
-    margin-top: 10%;
-}
-.se6h3{
-    font-size: 4em;
-    padding-bottom: 5%;
-}
-.se6p{
-    font-size: 2em;
-    text-align: justify;
-    padding: 5% 0;
-}
-.se6gauche{
-    /* en attendant l'image */
-    margin-left: 5% ;
-    width: 40%;
-}
 /* Style se7 */
 .se7{
     color: #fff;
@@ -154,9 +134,41 @@ body {
     text-align: justify;
     padding: 5% 0;
 }
+.se7gauche{
+    margin-left: 5% ;
+    width: 40%;
+}
 .se7droite{
-    /* en attendant l'image */
-    margin-left: 50% ;
+    width: 35%;
+    margin-left: 10%;
+}
+.se7img{
+    max-width: 100%;
+}
+/* Style se8 */
+.se8{
+    color: #fff;
+    display: flex;
+    margin-top: 10%;
+}
+.se8h3{
+    font-size: 4em;
+    padding-bottom: 5%;
+}
+.se8p{
+    font-size: 2em;
+    text-align: justify;
+    padding: 5% 0;
+}
+.se8gauche{
+    margin-left: 5%;
+    max-width: 35%;
+}
+.se8img{
+    max-width: 100%;
+}
+.se8droite{
+    margin-left: 10% ;
     width: 40%;
 }
 
@@ -165,6 +177,7 @@ body {
 footer{
     margin-top: 10%;
     background-color: #fff;
+    height: 100vh;
 }
 footer > h2 {
     font-size: 5em;
@@ -173,7 +186,7 @@ footer > h2 {
 
 }
 .footp {
-    padding: 5% 0;
+    padding: 2% 0;
     font-size: 3em;
     text-align: center;
 }
@@ -182,7 +195,7 @@ footer > h2 {
 }
 .footb{
     width: 8%;
-    height: 8vh;
+    height: 10vh;
     margin: 1%;
     border: 2px solid black;
 }
@@ -192,10 +205,22 @@ footer > h2 {
     height: 80%;
     margin-left: 10%;
 }
+.footb > img{
+    width: 80%;
+    max-height: 80%;
+}
 .footb:hover{
     background-color: #C3A995;
 }
+.footparent{
+    width: 100%;
+    height: 10px;
+}
 .footdroits{
-    position: absolute;
-    right: 0;
+    text-align: right;
+}
+.footimgcont{
+    position: relative;
+    left: -200px;
+    top: -300px;
 }
