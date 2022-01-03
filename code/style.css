@@ -1,0 +1,49 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+body {
+    background-color: #333333;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+}
+
+.container1-1 {
+    color: white;
+}
+
+.section1 {
+    height: 100vh;
+}
+
+.bureau {
+    transform: scale(0.6);
+}
+
+.echangeons {
+    border: 1px solid white;
+    text-align: center;
+    background-color: #C3A995;
+    height: 30px;
+}
+
+.bouton {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px ;
+}
+
+.container2 {
+    display: flex;
+    color: white;
+}
+
+.container2 > img {
+    transform: scale(0.7);
+}
