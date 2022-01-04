@@ -62,7 +62,6 @@ body {
     height: 100vh;
     margin-top: 100px;
     width: 100%;
-    overflow-x: hidden;
 }
 
 .title_s3 > h1 {
@@ -112,6 +111,7 @@ body {
 
 .section4 {
     display: flex;
+    height: 100vh;
 }
 
 .image_s4 {
