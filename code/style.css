@@ -16,12 +16,26 @@ body {
 
 .container1 {
     display: flex;
-    align-items: center;
 }
 
 .container1-1 {
     color: white;
+    margin-top: 100px;
+    width: 90%;
+    margin-left: 10%;
 }
+
+.container1-1 > h1 {
+    width: 70%;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.container1-1 > p {
+    width: 100%;
+    font-size: 28px;
+}
+
 
 .section1 {
     height: 100vh;
@@ -229,11 +243,11 @@ body {
     margin-top: 10%;
 }
 .se8h3{
-    font-size: 55px;
+    font-size: 36px;
     padding-bottom: 5%;
 }
 .se8p{
-    font-size: 37px;
+    font-size: 28px;
     text-align: justify;
     padding: 5% 0;
 }
