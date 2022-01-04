@@ -32,10 +32,13 @@ body {
 }
 
 .echangeons {
-    border: 1px solid white;
     text-align: center;
     background-color: #C3A995;
     height: 30px;
+    margin-top: 20px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
 }
 
 .bouton {
@@ -92,7 +95,6 @@ body {
     width: 150px;
     margin: auto;
     margin-top: 90px;
-    border: 1px solid white;
     text-align: center;
     background-color: #C3A995;
     height: 30px;
