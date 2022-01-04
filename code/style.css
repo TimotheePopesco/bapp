@@ -68,10 +68,12 @@ body {
     text-align: center;
     font-size: 55px;
     color: white;
+
 }
 
 .pieuvre {
     transform: scale(0.8);
+    margin-left: 350px;
 }
 
 .container_s3 {
@@ -99,24 +101,41 @@ body {
 
 .bloc1_s4 {
     display: flex;
+    gap: 30px;
 }
 
-.container1_s4 {
+.container_s4 {
     color: white;
+    margin-left: 50px;
 }
 
 .container1_s4 > p {
     width: 30%;
 }
 
+.text1_s4 > h2 {
+    font-size: 30px;
+}
+
+
 .section4 {
     display: flex;
     height: 100vh;
+    color: white;
+    margin-top: 300px;
 }
 
+
 .image_s4 {
+    object-fit: cover;
     transform: scale(0.7);
 }
+
+.text2_s4 {
+    margin-top: 50px;
+    width: 60%;
+}
+
 
 /* Style se6 */
 
