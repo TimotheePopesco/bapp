@@ -301,3 +301,45 @@ footer > h2 {
     left: -200px;
     top: -200px;
 }
+
+/* Style de la page contact */
+.contbody{
+    height: 100vh;
+    color: #fff;
+}
+.contretour > button {
+    background-color: #333333;
+    border: none;
+    margin: 2% 0 0 2%;
+}
+.contform{
+    text-align: center;
+    margin-top: 15vh;
+}
+.contform > div {
+    padding-top: 3%;
+    font-size: 30px;
+}
+.contform > div > button{
+    background-color: #C3A995;
+    padding: 1%;
+}
+.contform > div > input{
+    font-size: 30px;
+    padding: 1%;
+    border-radius: 50px;
+    width: 40%;
+    background-color: #C3A995;
+    color: #fff;
+}
+.contdecor > img {
+    position: absolute;
+    bottom: 20vh;
+    left: -20vh;
+    height: 50vh;
+}
+.contdecor > p {
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
