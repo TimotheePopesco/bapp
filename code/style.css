@@ -106,7 +106,7 @@ body {
 
 .container_s4 {
     color: white;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 .container1_s4 > p {
@@ -127,9 +127,11 @@ body {
 
 
 .image_s4 {
-    object-fit: cover;
-    transform: scale(0.7);
+    height: 600px;
+    width: auto;
+    margin-right: 150px;
 }
+
 
 .text2_s4 {
     margin-top: 50px;
