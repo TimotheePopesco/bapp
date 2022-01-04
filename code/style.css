@@ -118,45 +118,111 @@ body {
     transform: scale(0.7);
 }
 
-
 /* Style se6 */
-.se6{
+
+.se6flex{
     color: #fff;
     display: flex;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .se6h3{
-    font-size: 4em;
+    font-size: 55px;
     padding-bottom: 5%;
 }
 .se6p{
-    font-size: 2em;
+    font-size: 37px;
     text-align: justify;
     padding: 5% 0;
+
+}
+.se6b{
+    color: #fff;
+    font-size: 24px;
+    padding: 2%;
+    background-color: #C3A995;
+    border: none;
+    margin-top: 2%;
 }
 .se6gauche{
-    /* en attendant l'image */
     margin-left: 5% ;
     width: 40%;
 }
+.se6droite{
+    width: 35%;
+    margin-left: 10%;
+}
+.se6img{
+    max-width: 100%;
+}
+.se6bas{
+    text-align: center;
+}
+.se6bas > p{
+    font-size: 43px;
+    color: #fff;
+    text-align: center;
+    width: 70%;
+    margin: 5% 0 10% 15%;
+}
+
 /* Style se7 */
-.se7{
+.se7nav {
+    text-align: center;
+}
+.se7nav > img{
+    width: 10%;
+    margin: 3%;
+}
+.se7flex{
+    color: #fff;
+    display: flex;
+    margin-top: 2%;
+}
+.se7h3{
+    font-size: 55px;
+    padding-bottom: 5%;
+}
+.se7p{
+    font-size: 37px;
+    text-align: justify;
+    padding: 5% 0;
+}
+.se7gauche{
+    margin-left: 5% ;
+    width: 40%;
+}
+.se7droite{
+    width: 35%;
+    margin-left: 10%;
+}
+.se7img{
+    max-width: 100%;
+    max-height: 80vh;
+}
+/* Style se8 */
+.se8{
     color: #fff;
     display: flex;
     margin-top: 10%;
 }
-.se7h3{
-    font-size: 4em;
+.se8h3{
+    font-size: 55px;
     padding-bottom: 5%;
 }
-.se7p{
-    font-size: 2em;
+.se8p{
+    font-size: 37px;
     text-align: justify;
     padding: 5% 0;
 }
-.se7droite{
-    /* en attendant l'image */
-    margin-left: 50% ;
+.se8gauche{
+    margin-left: 5%;
+    max-width: 35%;
+}
+.se8img{
+    max-width: 100%;
+}
+.se8droite{
+    margin-left: 10% ;
     width: 40%;
 }
 
@@ -165,16 +231,17 @@ body {
 footer{
     margin-top: 10%;
     background-color: #fff;
+    height: 100vh;
 }
 footer > h2 {
-    font-size: 5em;
+    font-size: 70px;
     text-align: center;
     padding: 1% 0;
 
 }
 .footp {
-    padding: 5% 0;
-    font-size: 3em;
+    padding: 2% 0;
+    font-size: 37px;
     text-align: center;
 }
 .footnav{
@@ -182,7 +249,7 @@ footer > h2 {
 }
 .footb{
     width: 8%;
-    height: 8vh;
+    height: 10vh;
     margin: 1%;
     border: 2px solid black;
 }
@@ -192,10 +259,24 @@ footer > h2 {
     height: 80%;
     margin-left: 10%;
 }
+.footb > img{
+    width: 80%;
+    max-height: 80%;
+}
 .footb:hover{
     background-color: #C3A995;
 }
+.footparent{
+    width: 100%;
+    height: 10px;
+}
 .footdroits{
-    position: absolute;
-    right: 0;
+    text-align: right;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.footimgcont{
+    position: relative;
+    left: -200px;
+    top: -200px;
 }
