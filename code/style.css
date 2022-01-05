@@ -360,9 +360,12 @@ body {
 /* Style du footer */
 
 footer{
+    position: relative;
     margin-top: 10%;
     background-color: #fff;
-    height: 100vh;
+    height: 90vh;
+    padding-top: 5vh;
+    width: 100%;
 }
 footer > h2 {
     font-size: 40px;
@@ -371,7 +374,7 @@ footer > h2 {
 
 }
 .footp {
-    padding: 2% 0;
+    padding: 3% 0;
     font-size: 28px;
     text-align: center;
 }
@@ -397,19 +400,18 @@ footer > h2 {
 .footb:hover{
     background-color: #C3A995;
 }
-.footparent{
-    width: 100%;
-    height: 10px;
-}
 .footdroits{
-    text-align: right;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
     font-size: 22px;
     font-weight: lighter;
 }
 .footimgcont{
-    position: relative;
-    left: -200px;
-    top: -200px;
+    position: absolute;
+    left: -10%;
+    bottom: 0;
+    max-height: 50vh;
 }
 
 /* Style de la page contact */
