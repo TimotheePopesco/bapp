@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+a {
+    font-size: 20px;
+}
+
 
 
 .head {
@@ -57,11 +61,15 @@ body {
     align-items: center;
 }
 
+.echangeons > p > a {
+    font-size: 16px;
+}
+
 .bouton {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    padding: 10px ;
+    padding: 10px;
 }
 
 
@@ -76,11 +84,11 @@ body {
 .button_s2 {
     text-align: center;
     background-color: #C3A995;
-    height: 30px;
+    height: 40px;
     margin: auto;
     display: flex;
     align-items: center;
-    width: 150px;
+    width: 200px;
     justify-content: center;
 }
 
@@ -156,12 +164,13 @@ body {
     margin-bottom: 20px;
 }
 
+
 .echangeons_s3 {
-    width: 150px;
+    width: 200px;
     margin: auto;
     margin-top: 90px;
     background-color: #C3A995;
-    height: 30px;
+    height: 40px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -199,6 +208,7 @@ body {
     height: 100vh;
     color: white;
     margin-top: 30vh;
+    justify-content: center;
 }
 
 
