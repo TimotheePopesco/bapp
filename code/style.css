@@ -247,18 +247,18 @@ body {
     margin-top: 5%;
 }
 .se6h3{
-    font-size: 55px;
+    font-size: 36px;
     padding-bottom: 5%;
 }
 .se6p{
-    font-size: 37px;
+    font-size: 28px;
     text-align: justify;
     padding: 5% 0;
 
 }
 .se6b{
     color: #fff;
-    font-size: 24px;
+    font-size: 28px;
     padding: 2%;
     background-color: #C3A995;
     border: none;
@@ -274,12 +274,13 @@ body {
 }
 .se6img{
     max-width: 100%;
+    max-height: 60vh;
 }
 .se6bas{
     text-align: center;
 }
 .se6bas > p{
-    font-size: 43px;
+    font-size: 28px;
     color: #fff;
     text-align: center;
     width: 70%;
@@ -300,11 +301,11 @@ body {
     margin-top: 2%;
 }
 .se7h3{
-    font-size: 55px;
+    font-size: 36px;
     padding-bottom: 5%;
 }
 .se7p{
-    font-size: 37px;
+    font-size: 28px;
     text-align: justify;
     padding: 5% 0;
 }
@@ -318,7 +319,7 @@ body {
 }
 .se7img{
     max-width: 100%;
-    max-height: 80vh;
+    max-height: 60vh;
 }
 /* Style se8 */
 .se8{
@@ -337,7 +338,7 @@ body {
 }
 .se8gauche{
     margin-left: 5%;
-    max-width: 35%;
+    max-width: 30%;
 }
 .se8img{
     max-width: 100%;
@@ -355,14 +356,14 @@ footer{
     height: 100vh;
 }
 footer > h2 {
-    font-size: 70px;
+    font-size: 40px;
     text-align: center;
     padding: 1% 0;
 
 }
 .footp {
     padding: 2% 0;
-    font-size: 37px;
+    font-size: 28px;
     text-align: center;
 }
 .footnav{
@@ -393,7 +394,7 @@ footer > h2 {
 }
 .footdroits{
     text-align: right;
-    font-size: 14px;
+    font-size: 22px;
     font-weight: lighter;
 }
 .footimgcont{
@@ -418,19 +419,29 @@ footer > h2 {
 }
 .contform > div {
     padding-top: 3%;
-    font-size: 30px;
+    font-size: 28px;
 }
-.contform > div > button{
+.contformimg{
     background-color: #C3A995;
     padding: 1%;
 }
+.send {
+    color: #707070;
+    background-color: #B4B3B3;
+    padding: 1%;
+    font-size: 28px;
+}
+.send:hover{
+    background-color: #C3A995;
+    color: #fff;
+}
 .contform > div > input{
-    font-size: 30px;
+    font-size: 28px;
     padding: 1%;
     border-radius: 50px;
     width: 40%;
-    background-color: #C3A995;
-    color: #fff;
+    color: #707070;
+    background-color: #B4B3B3;
 }
 .contdecor > img {
     position: absolute;
@@ -442,4 +453,70 @@ footer > h2 {
     position: absolute;
     right: 2%;
     bottom: 2%;
+    font-size: 22px;
+}
+
+/* Taille titre 22 28 36 40 */
+/* moins de 725 et entre 725 et 1030 */
+@media screen and (max-width: 725px){
+    .contform{
+        margin-top: 25vh;
+    }
+    .contdecor > img {
+        display: none;
+    }
+    .contform > div > input{
+        font-size: 14px;
+        padding: 2%;
+        width: 80%;
+    }
+    .contform > div > button{
+        padding: 5%;
+    }
+    .contform > div {
+        padding-top: 10%;
+        font-size: 14px;
+    }
+    .contdecor > p {
+        font-size: 11px;
+    }
+    .contretour > button {
+        position: absolute;
+        top: 2%;
+        right: 5%;
+    }
+    .contbody{
+        height: auto;
+    }
+}
+@media screen and (max-width: 1030px) and (min-width: 725px){
+    .contform{
+        margin-top: 20vh;
+    }
+    .contdecor > img {
+        display: none;
+    }
+    .contform > div > input{
+        padding: 2%;
+        width: 60%;
+    }
+    .contform > div > button{
+        padding: 3%;
+    }
+    .contform > div {
+        padding-top: 5%;
+    }
+    .contretour > button {
+        position: absolute;
+        top: 2%;
+        right: 5%;
+    }
+    .contbody{
+        height: auto;
+    } 
+}
+@media screen and (max-height: 450px) and (min-width: 725px){
+    .contdecor > p {
+        display: none;
+    }
 }
