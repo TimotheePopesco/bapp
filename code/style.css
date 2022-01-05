@@ -4,6 +4,8 @@
     padding: 0px;
 }
 
+
+
 .head {
     display: flex;
     justify-content: space-between;
@@ -62,18 +64,63 @@ body {
     padding: 10px ;
 }
 
+
+.button_s2 > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px ;
+}
+
+
+.button_s2 {
+    text-align: center;
+    background-color: #C3A995;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: center;
+}
+
 .container2 {
     display: flex;
     color: white;
+    justify-content: center;
+    gap: 7%;
 }
 
 .container2 > img {
     transform: scale(0.7);
 }
 
+
+.container2 > div > h2 {
+    margin-bottom: 3vh;
+}
+
+
+.container2 > div > ul > li {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.container2 > div > img {
+    margin-bottom: 7vh;
+}
+
 .section2 {
     height: 100vh;
 }
+
+.section2 > h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20vh;
+    font-size: 40px;
+}
+
 
 .section3 {
     height: 100vh;
@@ -83,14 +130,18 @@ body {
 
 .title_s3 > h1 {
     text-align: center;
-    font-size: 55px;
+    font-size: 40px;
     color: white;
 
 }
 
-.pieuvre {
+.align_center {
+    display: flex;
+    justify-content: center;
+}
+
+.dino {
     transform: scale(0.8);
-    margin-left: 350px;
 }
 
 .container_s3 {
@@ -109,10 +160,19 @@ body {
     width: 150px;
     margin: auto;
     margin-top: 90px;
-    text-align: center;
     background-color: #C3A995;
     height: 30px;
     align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text_s3 > h2 {
+    font-size: 36px;
+}
+
+.text_s3 > p {
+    font-size: 28px;
 }
 
 .bloc1_s4 {
@@ -138,21 +198,35 @@ body {
     display: flex;
     height: 100vh;
     color: white;
-    margin-top: 300px;
+    margin-top: 30vh;
 }
 
 
 .image_s4 {
-    height: 600px;
+    height: 80vh;
     width: auto;
     margin-right: 150px;
+}
+
+.koss {
+    height: 30vh;
 }
 
 
 .text2_s4 {
     margin-top: 50px;
     width: 60%;
+    font-size: 28px;
 }
+
+.text1_s4 > h2 {
+    font-size: 36px;
+}
+
+.text1_s4 > p {
+    font-size: 28px;
+}
+
 
 
 /* Style se6 */
