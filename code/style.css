@@ -419,6 +419,7 @@ footer > h2 {
     color: #707070;
     background-color: #B4B3B3;
     padding: 1%;
+    font-size: 28px;
 }
 .send:hover{
     background-color: #C3A995;
@@ -486,7 +487,6 @@ footer > h2 {
         display: none;
     }
     .contform > div > input{
-        font-size: 21px;
         padding: 2%;
         width: 60%;
     }
@@ -495,10 +495,6 @@ footer > h2 {
     }
     .contform > div {
         padding-top: 5%;
-        font-size: 21px;
-    }
-    .contdecor > p {
-        font-size: 16px;
     }
     .contretour > button {
         position: absolute;
@@ -507,5 +503,10 @@ footer > h2 {
     }
     .contbody{
         height: auto;
+    } 
+}
+@media screen and (max-height: 450px) and (min-width: 725px){
+    .contdecor > p {
+        display: none;
     }
 }
