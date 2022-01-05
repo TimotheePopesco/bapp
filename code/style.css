@@ -4,6 +4,9 @@ body {
     font-family: 'Campton', sans-serif;
 }
 
+li {
+    font-family: 'Campton', sans-serif;
+}
 
 * {
     box-sizing: border-box;
@@ -31,6 +34,7 @@ body {
 
 .container1 {
     display: flex;
+    margin-top: 15vh;
 }
 
 .container1-1 {
