@@ -6,11 +6,17 @@ body {
 }
 
 
+li {
+    font-family: 'Campton', sans-serif;
+}
+
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
+
+
 
 a {
     font-size: 20px;
@@ -29,6 +35,27 @@ p {
 
 .container1 {
     display: flex;
+    margin-top: 15vh;
+}
+
+@media screen and (max-width: 768px) {
+    .bureau {
+        display: none;
+    }
+
+    .container_s3 {
+        flex-wrap: wrap;
+    }
+
+    .image_s4 {
+        display: none;
+    }
+
+    .container2 {
+        flex-direction: column;
+        height: auto;
+    }
+
 }
 
 .container1-1 {
@@ -103,7 +130,7 @@ p {
     display: flex;
     color: white;
     justify-content: center;
-    gap: 7%;
+    gap: 5%;
 }
 
 .container2 > img {
@@ -162,7 +189,7 @@ p {
 .container_s3 {
     display: flex;
     color: white;
-    gap: 100px;
+    gap: 5%;
     margin: auto;
     width: 95%;
 }
@@ -191,6 +218,8 @@ p {
     font-size: 28px;
 }
 
+/*SECTION 4 */
+
 .bloc1_s4 {
     display: flex;
     gap: 30px;
@@ -214,7 +243,7 @@ p {
     display: flex;
     height: 100vh;
     color: white;
-    margin-top: 30vh;
+    margin-top: 100vh;
     justify-content: center;
 }
 
@@ -469,6 +498,9 @@ footer > h2 {
 }
 
 /* Taille texte 22 28 36 40 => 11 14 18 20 mobile */
+
+
+/* Taille titre 22 28 36 40 */
 /* moins de 725 et entre 725 et 1030 */
 
 /* Responsive HomePage : */
@@ -496,7 +528,7 @@ footer > h2 {
 /* Responsive Page de Contacts : */
 /* Mobile */
 @media screen and (max-width: 725px){
-    .contform{
+    .contform {
         margin-top: 25vh;
     }
     .contdecor > img {
