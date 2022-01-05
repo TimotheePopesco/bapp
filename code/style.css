@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Campton', sans-serif;
+    background-color: #333333;
 }
 
 
@@ -21,13 +22,10 @@ p {
 
 .head {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 
-body {
-    background-color: #333333;
-}
+
 
 .container1 {
     display: flex;
@@ -470,8 +468,33 @@ footer > h2 {
     font-size: 22px;
 }
 
-/* Taille titre 22 28 36 40 */
+/* Taille texte 22 28 36 40 => 11 14 18 20 mobile */
 /* moins de 725 et entre 725 et 1030 */
+
+/* Responsive HomePage : */
+/* Mobile */
+@media screen and (max-width: 725px){
+    .footimgcont{
+        display: none;
+    }
+}
+
+/* Tablette */
+@media screen and (max-width: 1030px) and (min-width: 725px){
+
+}
+
+/* Paysage Mobile */
+@media screen and (max-height: 450px) and (min-width: 725px){
+    .footimgcont{
+        display: none;
+    }
+}
+
+
+
+/* Responsive Page de Contacts : */
+/* Mobile */
 @media screen and (max-width: 725px){
     .contform{
         margin-top: 25vh;
@@ -503,6 +526,8 @@ footer > h2 {
         height: auto;
     }
 }
+
+/* Tablette */
 @media screen and (max-width: 1030px) and (min-width: 725px){
     .contform{
         margin-top: 20vh;
@@ -529,6 +554,8 @@ footer > h2 {
         height: auto;
     } 
 }
+
+/* Paysage Mobile */
 @media screen and (max-height: 450px) and (min-width: 725px){
     .contdecor > p {
         display: none;
