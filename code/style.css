@@ -38,7 +38,9 @@ p {
     display: flex;
     margin-top: 15vh;
 }
-
+button{
+    font-family: 'Campton', sans-serif;
+}
 
 
 .container1-1 {
