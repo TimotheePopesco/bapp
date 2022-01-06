@@ -515,6 +515,55 @@ footer > h2 {
         margin: 2%;
         border: 2px solid black;
     }
+    .se8{
+        height: auto;
+    }
+    .se8h3{
+        font-size: 18px;
+        padding-bottom: 5vh;
+    }
+    .se8p{
+        font-size: 14px;
+        padding: 2vh 0;
+    }
+    .se8gauche{
+        margin-left: 5%;
+        max-width: 35%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vh;
+    }
+    .se7{
+        height: auto;
+    }
+    .se7nav {
+        display: none;
+    }
+    .se7flex{
+        display: block;
+    }
+    .se7h3{
+        font-size: 18px;
+        padding-bottom: 3vh;
+    }
+    .se7p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .se7gauche{
+        margin: 0 10% ;
+        width: 80%;
+        text-align: center;
+    }
+    .se7droite{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 5vh;
+    }
+    .se7img{
+        max-width: 100%;
+        max-height: 60vh;
+    }
 }
 
 /* Tablette */
@@ -541,6 +590,24 @@ footer > h2 {
         height: 10vh;
         margin: 2%;
         border: 2px solid black;
+    }
+    .se8{
+        height: auto;
+    }
+    .se8h3{
+        font-size: 27px;
+        padding-bottom: 5vh;
+    }
+    .se8p{
+        font-size: 21px;
+        padding: 3vh 0;
+    }
+    .se8gauche{
+        margin-left: 5%;
+        max-width: 35%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7vh;
     }
 }
 
