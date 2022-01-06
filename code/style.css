@@ -259,7 +259,9 @@ p {
 
 
 /* Style se6 */
-
+.se6{
+    height: auto;
+}
 .se6flex{
     color: #fff;
     display: flex;
