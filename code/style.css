@@ -567,6 +567,46 @@ footer > h2 {
         max-width: 100%;
         max-height: 60vh;
     }
+    .se6flex{
+        display: block;
+        margin-top: 5%;
+    }
+    .se6h3{
+        font-size: 18px;
+        padding-bottom: 5%;
+    }
+    .se6p{
+        font-size: 14px;
+        text-align: justify;
+        padding: 5% 0;
+    }
+    .se6b{
+        font-size: 14px;
+        padding: 2%;
+        margin-top: 5vh;
+    }
+    .se6gauche{
+        margin-left: 10% ;
+        width: 80%;
+        text-align: center;
+    }
+    .se6droite{
+        width: 80%;
+        text-align: center;
+        margin: 5vh 10%;
+    }
+    .se6img{
+        max-width: 100%;
+        max-height: 25vh;
+    }
+    .se6bas{
+        text-align: center;
+    }
+    .se6bas > p{
+        font-size: 14px;
+        width: 80%;
+        margin: 5% 10% 10% 10%;
+    }
 }
 
 /* Tablette */
@@ -644,6 +684,46 @@ footer > h2 {
         max-width: 100%;
         max-height: 60vh;
     }
+    .se6flex{
+        display: block;
+        margin-top: 5%;
+    }
+    .se6h3{
+        font-size: 27px;
+        padding-bottom: 5%;
+    }
+    .se6p{
+        font-size: 21px;
+        text-align: justify;
+        padding: 2vh 0;
+    }
+    .se6b{
+        font-size: 21px;
+        padding: 2%;
+        margin-top: 5vh;
+    }
+    .se6gauche{
+        margin-left: 10% ;
+        width: 80%;
+        text-align: center;
+    }
+    .se6droite{
+        width: 80%;
+        text-align: center;
+        margin: 5vh 10%;
+    }
+    .se6img{
+        max-width: 100%;
+        max-height: 35vh;
+    }
+    .se6bas{
+        text-align: center;
+    }
+    .se6bas > p{
+        font-size: 21px;
+        width: 80%;
+        margin: 5% 10% 10% 10%;
+    }
 }
 
 /* Paysage Mobile */
@@ -670,6 +750,10 @@ footer > h2 {
         height: 20vh;
         margin: 2%;
         border: 2px solid black;
+    }
+    .se6img{
+        max-width: 100%;
+        max-height: 70vh;
     }
 }
 
