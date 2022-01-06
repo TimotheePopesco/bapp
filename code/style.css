@@ -559,6 +559,7 @@ footer > h2 {
         width: 40%;
         margin-left: 30%;
         margin-top: 5vh;
+        text-align: center;
     }
     .se7img{
         max-width: 100%;
@@ -608,6 +609,38 @@ footer > h2 {
         justify-content: center;
         align-items: center;
         margin-top: 7vh;
+    }
+    .se7{
+        height: auto;
+    }
+    .se7nav {
+        display: none;
+    }
+    .se7flex{
+        display: block;
+    }
+    .se7h3{
+        font-size: 27px;
+        padding-bottom: 3vh;
+    }
+    .se7p{
+        font-size: 21px;
+        text-align: center;
+    }
+    .se7gauche{
+        margin: 0 10% ;
+        width: 80%;
+        text-align: center;
+    }
+    .se7droite{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 3vh;
+        text-align: center;
+    }
+    .se7img{
+        max-width: 100%;
+        max-height: 60vh;
     }
 }
 
