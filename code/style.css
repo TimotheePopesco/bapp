@@ -861,6 +861,10 @@ footer > h2 {
         font-size: 16px;
     }
 
+    .text_s3 {
+        padding-bottom: 50px;
+    }
+
     .section2 {
         margin-bottom: 1300px;
     }
