@@ -519,13 +519,55 @@ footer > h2 {
 
 /* Tablette */
 @media screen and (max-width: 1030px) and (min-width: 725px){
-
+    footer{
+        height: auto;
+    }
+    .footimgcont{
+        display: none;
+    }
+    .footdroits{
+        font-size: 22px;
+    }
+    .footp{
+        font-size: 28px;
+        padding: 10vh;
+    }
+    footer > h2 {
+        font-size: 40px;
+        margin-top: 5vh;
+    }
+    .footb{
+        width: 15%;
+        height: 10vh;
+        margin: 2%;
+        border: 2px solid black;
+    }
 }
 
 /* Paysage Mobile */
 @media screen and (max-height: 450px) and (min-width: 725px){
+    footer{
+        height: auto;
+    }
     .footimgcont{
         display: none;
+    }
+    .footdroits{
+        font-size: 11px;
+    }
+    .footp{
+        font-size: 14px;
+        padding: 10vh;
+    }
+    footer > h2 {
+        font-size: 20px;
+        margin-top: 5vh;
+    }
+    .footb{
+        width: 20%;
+        height: 20vh;
+        margin: 2%;
+        border: 2px solid black;
     }
 }
 
