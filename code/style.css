@@ -123,16 +123,18 @@ p {
 
 .container2 > div > h2 {
     margin-bottom: 3vh;
+    font-size: 30px;
 }
 
 
 .container2 > div > ul > li {
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .container2 > div > img {
     margin-bottom: 7vh;
+    height: 250px;
 }
 
 .section2 {
@@ -870,7 +872,7 @@ footer > h2 {
     }
 }
 
-@media screen and (max-width: 1030px) and (min-width: 768px) {
+@media screen and (max-width: 1030px) and (min-width: 769px) {
     .bureau {
         display: none;
     }
@@ -998,7 +1000,131 @@ footer > h2 {
     .section2 {
         margin-bottom: 1800px;
     }
-
-
 }
 
+
+@media screen and (max-width: 1400px) and (min-width: 1030px) {
+    .bureau {
+        height: 400px;
+    }
+
+    .container1-1 > p {
+        font-size: 28px;
+    }
+
+    .container1-1 > h1 {
+        font-size: 36px;
+    }
+
+    .container1-1 {
+        width: 70%;
+    }
+
+    .section2 > h1 {
+        font-size: 36px;
+    }
+
+    .container2 > div > h2 {
+        font-size: 24px;
+    }
+
+    .container2 {
+        gap: 10px;
+    }
+
+    .container2 > div > ul > li {
+        font-size: 24px;
+    }
+
+    .container2 {
+        margin-left: 10px;
+    }
+
+    .container2 > div > img {
+        height: 250px;
+    }
+
+    .title_s3 > h1 {
+        font-size: 36px;
+    }
+
+    .align_center > img {
+        height: 500px;
+    }
+
+    .text_s3 > h2 {
+        font-size: 28px;
+    }
+
+    .text_s3 > p {
+        font-size: 20px;
+    }
+
+    .echangeons_s3 > a {
+        font-size: 24px;
+    }
+
+    .echangeons_s3 {
+        width: 200px;
+        height: 50px;
+    }
+
+    .bloc1_s4 > img {
+        height: 300px;
+    }
+
+    .text1_s4 > h2 {
+        font-size: 28px;
+    }
+
+    .text1_s4 > p {
+        font-size: 24px;
+    }
+
+    .text2_s4 {
+        font-size: 24px;
+    }
+
+    .image_s4 {
+        margin-right: 30px;
+    }
+
+    .container_s4 {
+        margin: 50px;
+    }
+
+    .container2 > div > ul {
+        list-style-type: none;
+    }
+
+    .container2 > div > ul > li {
+        text-align: center;
+    }
+
+    .container2 > div {
+        padding: 20px;
+    }
+
+    .container2 > div {
+        text-align: center;
+    }
+    
+    .button_s2 {
+        width: 200px;
+        height: 50px;
+    }
+
+    .button_s2 > a {
+        font-size: 24px;
+    }
+
+    .text_s3 {
+        padding-bottom: 50px;
+    }
+
+    .section2 {
+        margin-bottom: 100px;
+    }
+
+    
+}
