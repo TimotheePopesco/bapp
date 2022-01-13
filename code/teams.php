@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,33 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Mail</title>
+    <title>Teams</title>
 </head>
 <body class="contbody">
     <header class="contretour">
-        <button onclick="window.location.href='index.html'"><img src="img/retour.png" alt="Return"></button>
+        <button onclick="window.location.href='index.php'"><img src="img/retour.png" alt="Return"></button>
     </header>
     <?php echo      
             " <section class='contus'>
                 <form class='contform' method='post'>
                     <div>
-                        <button class='contformimg'><img src='img/footenveloppe.png' alt='Mail'></button>
+                        <button class='contformimg'> <img src='img/footteams.png' alt='Teams'></button>
                     </div>
                     <div>
-                        <p>Renseignez votre adresse mail</p>
+                        <p>Renseignez votre adresse teams</p>
                     </div>
                     <div>
-                        <input class='pse' type='text' name='pseudo1' placeholder='Pseudo'>
+                        <input type='text' name='pseudo3'>
                     </div>
                             
-                    <input class='poster' type='submit' value='Envoyer' >
-                </form>"
+                    <input class='send' type='submit' value='Envoyer' >
+                </form>
+                <div class='contdecor'>
+                    <img src='img/foottel.png' alt='Telephone'>
+                    <p>Studio Edoras © 2020-2024 - Tous droits réservés</p>
+                </div>
+            </section>";
         ?>
-            <div class="contdecor">
-                <img src="img/foottel.png" alt="Telephone">
-                <p>Studio Edoras © 2020-2024 - Tous droits réservés</p>
-            </div>
-        </section>
 
 
 <?php
@@ -45,9 +44,10 @@
     if($_POST) {
 
         // Je gere les apostrophe pour ne que la chaine de caractere ne se referme pas:
-        $_POST['pseudo1'] = addslashes($_POST['pseudo1']);
+        $_POST['pseudo3'] = addslashes($_POST['pseudo3']);
         // J'envoie les infos du formulaire dans la base :
-        $pdo->exec("INSERT INTO contact01 (mail) VALUES ('$_POST[pseudo1]', NOW())");
+        $pdo->exec("INSERT INTO contact03 (teams) VALUES ('$_POST[pseudo3]')");
+        echo "<p class='msgmerci'>Merci, nous vous contacterons très vite.</p>";
     }
 ?>
 
