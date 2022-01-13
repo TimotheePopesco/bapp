@@ -180,25 +180,25 @@
         <!-- Création d'une nav pour choisir comment contacter l'agence -->
         <nav class="footnav">
             <!-- Mail -->
-            <button class="footb" onclick="window.location.href='mail.html'">
+            <button class="footb" onclick="window.location.href='mail.php'">
                 <div class="footbghover">
                     <img src="img/footenveloppe.png" alt="Mail">
                 </div>                 
             </button>
             <!-- Discord -->
-            <button class="footb" onclick="window.location.href='discord.html'">
+            <button class="footb" onclick="window.location.href='discord.php'">
                 <div class="footbghover"> 
                     <img src="img/footdiscord.png" alt="Discord">
                 </div>
             </button>
             <!-- Teams -->
-            <button class="footb" onclick="window.location.href='teams.html'">
+            <button class="footb" onclick="window.location.href='teams.php'">
                 <div class="footbghover">
                     <img src="img/footteams.png" alt="Microsoft-Teams">
                 </div>               
             </button>
             <!-- Téléphone/message -->
-            <button class="footb" onclick="window.location.href='phone.html'">
+            <button class="footb" onclick="window.location.href='phone.php'">
                 <div class="footbghover">
                     <img src="img/footappel.png" alt="Téléphone">
                 </div>                                
