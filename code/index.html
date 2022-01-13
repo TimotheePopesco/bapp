@@ -11,7 +11,7 @@
     <div class="head">
         <img src="img/calque 2.png" alt="">
         <div class="echangeons">
-            <p><a class="bouton" href="">Echangeons</a></p>
+            <p><a class="bouton" href="">Echangeons !</a></p>
         </div>
     </div>
     <section class="section1">
@@ -97,7 +97,7 @@
             </div>
         </div>
         <div class="echangeons_s3">
-            <a class="bouton" href="">Echangeons</a>
+            <a class="bouton" href="">Echangeons !</a>
         </div>
     </section>
     <section class="section4">
